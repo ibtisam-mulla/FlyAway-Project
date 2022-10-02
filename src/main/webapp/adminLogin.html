@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>admin login page</title>
+<style>
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image: url('plane.png');  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 300px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 3 3 350px;  
+        padding: 30px;  
+       
+        border-radius: 5px ; 
+        
+          
+}  
+h1{  
+    text-align: center;  
+    color: white;  
+    padding: 30px;  
+}  
+label{  
+    color: blue;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 145px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+    font-size: 17px;    
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+    
+</style>
+
+</head>
+<body>
+<h1>Admin login page</h1>
+
+<div class="login">    
+    <form id="login" method="post" action="AdminLogin">    
+        <label><b>Admin Name     
+        </b>    
+        </label>    
+        <input type="text" id="Uname" name="Adminid">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" id="Pass" name="Pass">    
+        <br><br>    
+        <input type="submit" name="log" id="log" value="Login">   
+        <input type="reset" name="reset" id="log" value="Reset">    
+        <br><br>    
+         
+    </form>     
+</div>    
+
+</body>
+</html>

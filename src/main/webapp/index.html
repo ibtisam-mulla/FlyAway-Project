@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login page</title>
+<style>
+.login{  
+        width: 300px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 3 3 350px;  
+        padding: 30px;  
+       
+        border-radius: 5px ; 
+        
+          
+}  
+h3{  
+    text-align: center;  
+    color: white;  
+    padding: 30px;  
+}  
+
+body {
+  background-image: url('img4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+label{  
+    color: white;  
+    font-size: 17px;  
+}  
+#pro{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 145px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+    font-size: 17px;    
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}
+ input.right {
+        float: right;
+         width: 145px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+    font-size: 17px; 
+      }  
+
+    
+</style>
+
+</head>
+<body>
+<form action="adminLogin.html" method="post">
+<input type="submit" value="Admin login" class="right" style="height:50px; width:100px">
+</form><br>
+<center>
+<font size="30" color="white">Welcome to FlyAway</font><br><br>
+</center>
+
+<div class="login">    
+    <form id="login" method="post" action="searchFlight.jsp">
+    <center><font size="5" color="white">Enter your details</font></center><br>   
+    	<label><b>select date     
+        </b>    
+        </label>    
+        <input type="date" id="pro" name="Date">    
+        <br><br>     
+        <label><b>Enter the Source     
+        </b>    
+        </label>    
+        <input list="source" id="pro" name="Source">  
+        	<datalist id="source">
+				<option value="Hydrabad">
+				<option value="Delhi">
+				<option value="Chennai">
+				<option value="Mumbai">
+				<option value="Bangalore">
+			</datalist>
+          
+        <br><br>    
+        <label><b>Enter the Destination    
+        </b>    
+        </label>    
+        <input list="dest" id="pro" name="Destination">  
+        <datalist id="dest">
+				<option value="Hydrabad">
+				<option value="Delhi">
+				<option value="Chennai">
+				<option value="Mumbai">
+				<option value="Bangalore">
+			</datalist>  
+        <br><br> 
+        <label><b>Number of Persons     
+        </b>    
+        </label>    
+        <input type="text" id="pro" name="Person">    
+        <br><br>       
+        <input type="submit" name="log" id="log" value="submit">   
+        <input type="reset" name="reset" id="log" value="Reset">    
+        <br><br>    
+         
+    </form>     
+</div>  
+<marquee><font size="5" color="white">Developed by IBTISAM </font></marquee>  
+
+</body>
+</html>
